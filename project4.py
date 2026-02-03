@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import re
 def clean_for_sentiment(text):
     text = text.lower()
@@ -24,7 +18,7 @@ print("B:", clean_for_sentiment(input_b))
 print("C:", clean_for_sentiment(input_c))
 
 
-# In[ ]:
+
 
 
 
